@@ -12,6 +12,10 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      textGradient: {
+        // Custom class for text gradient
+        "gradient-to-r": "linear-gradient(to right, #ff6900, #ee0979)",
+      },
     },
   },
   plugins: [],
