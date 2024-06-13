@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useState, useRef, useEffect } from "react";
 
 export default function Player1() {
@@ -34,9 +35,9 @@ export default function Player1() {
   return (
     <div className="mx-auto p-3 w-full max-w-md">
       <header className="flex justify-between items-center mb-5">
-        <a href="#" className="text-gray-500">
-          &#8592;
-        </a>
+        <Link href="feed">
+          <img src="./arrow.svg" alt="back-arrow" />
+        </Link>
         <h2 className="uppercase text-center flex-grow">Playing</h2>
       </header>
 
