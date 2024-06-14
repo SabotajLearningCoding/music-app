@@ -1,7 +1,7 @@
 "use client";
 
-import Feed1 from "@/components/feed1";
+import Feed from "@/components/feed";
 
-export default function Feed() {
-  return <Feed1 />;
+export default function FeedPage() {
+  return <Feed />;
 }

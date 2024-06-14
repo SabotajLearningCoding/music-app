@@ -3,7 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
-export default function Walkthrough1() {
+export default function Walkthrough() {
   const router = useRouter();
   const [activeIcon, setActiveIcon] = useState("sensors"); // sensors is active initially
 

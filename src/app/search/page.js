@@ -1,7 +1,7 @@
 "use client";
 
-import Search1 from "@/components/search1";
+import Search from "@/components/search";
 
-export default function Search() {
-  return <Search1 />;
+export default function SearchPage() {
+  return <Search />;
 }

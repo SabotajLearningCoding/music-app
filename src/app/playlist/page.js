@@ -1,11 +1,11 @@
 "use client";
 
-import Player from "@/hooks/usePlayer";
+import Playlist from "@/hooks/playlist";
 
-export default function Playlist() {
+export default function PlaylistPage() {
   return (
     <>
-      <Player />
+      <Playlist />
     </>
   );
 }

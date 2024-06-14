@@ -1,11 +1,11 @@
-"use client"
+"use client";
 
-import Walktrhough1 from "../../components/walktrough1"
+import Walktrhough from "../../components/walktrough";
 
-export default function Walkthrough() {
-    return (
-        <>
-            <Walktrhough1/>
-        </>
-    )
+export default function WalkthroughPage() {
+  return (
+    <>
+      <Walktrhough />
+    </>
+  );
 }

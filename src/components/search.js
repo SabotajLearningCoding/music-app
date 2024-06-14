@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 
-export default function Search1() {
+export default function Search() {
   return (
     <div className="w-[560px] h-dvh mx-auto pt-5 bg-slate-300">
       <Link href="/feed">

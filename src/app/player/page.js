@@ -1,7 +1,7 @@
 "use client";
 
-import Player1 from "@/components/player1";
+import Player from "@/components/player";
 
-export default function Player() {
-  return <Player1 />;
+export default function PlayerPage() {
+  return <Player />;
 }
